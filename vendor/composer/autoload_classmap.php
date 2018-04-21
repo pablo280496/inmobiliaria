@@ -6,6 +6,8 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'App\\Avaluo' => $baseDir . '/app/Avaluo.php',
+    'App\\Categoria' => $baseDir . '/app/Categoria.php',
     'App\\Console\\Kernel' => $baseDir . '/app/Console/Kernel.php',
     'App\\Exceptions\\Handler' => $baseDir . '/app/Exceptions/Handler.php',
     'App\\Http\\Controllers\\Auth\\ForgotPasswordController' => $baseDir . '/app/Http/Controllers/Auth/ForgotPasswordController.php',
@@ -19,6 +21,8 @@ return array(
     'App\\Http\\Middleware\\RedirectIfAuthenticated' => $baseDir . '/app/Http/Middleware/RedirectIfAuthenticated.php',
     'App\\Http\\Middleware\\TrimStrings' => $baseDir . '/app/Http/Middleware/TrimStrings.php',
     'App\\Http\\Middleware\\VerifyCsrfToken' => $baseDir . '/app/Http/Middleware/VerifyCsrfToken.php',
+    'App\\InmuebleModel' => $baseDir . '/app/InmuebleModel.php',
+    'App\\MedioDifusion' => $baseDir . '/app/MedioDifusion.php',
     'App\\Providers\\AppServiceProvider' => $baseDir . '/app/Providers/AppServiceProvider.php',
     'App\\Providers\\AuthServiceProvider' => $baseDir . '/app/Providers/AuthServiceProvider.php',
     'App\\Providers\\BroadcastServiceProvider' => $baseDir . '/app/Providers/BroadcastServiceProvider.php',
@@ -27,6 +31,7 @@ return array(
     'App\\User' => $baseDir . '/app/User.php',
     'ArithmeticError' => $vendorDir . '/symfony/polyfill-php70/Resources/stubs/ArithmeticError.php',
     'AssertionError' => $vendorDir . '/symfony/polyfill-php70/Resources/stubs/AssertionError.php',
+    'AvaluosSeeder' => $baseDir . '/database/seeds/AvaluosSeeder.php',
     'Carbon\\Carbon' => $vendorDir . '/nesbot/carbon/src/Carbon/Carbon.php',
     'Carbon\\CarbonInterval' => $vendorDir . '/nesbot/carbon/src/Carbon/CarbonInterval.php',
     'Carbon\\Exceptions\\InvalidDateException' => $vendorDir . '/nesbot/carbon/src/Carbon/Exceptions/InvalidDateException.php',
@@ -1286,6 +1291,7 @@ return array(
     'Illuminate\\View\\ViewFinderInterface' => $vendorDir . '/laravel/framework/src/Illuminate/View/ViewFinderInterface.php',
     'Illuminate\\View\\ViewName' => $vendorDir . '/laravel/framework/src/Illuminate/View/ViewName.php',
     'Illuminate\\View\\ViewServiceProvider' => $vendorDir . '/laravel/framework/src/Illuminate/View/ViewServiceProvider.php',
+    'InmuebleSeeder' => $baseDir . '/database/seeds/InmuebleSeeder.php',
     'JakubOnderka\\PhpConsoleColor\\ConsoleColor' => $vendorDir . '/jakub-onderka/php-console-color/src/JakubOnderka/PhpConsoleColor/ConsoleColor.php',
     'JakubOnderka\\PhpConsoleColor\\InvalidStyleException' => $vendorDir . '/jakub-onderka/php-console-color/src/JakubOnderka/PhpConsoleColor/InvalidStyleException.php',
     'JakubOnderka\\PhpConsoleHighlighter\\Highlighter' => $vendorDir . '/jakub-onderka/php-console-highlighter/src/JakubOnderka/PhpConsoleHighlighter/Highlighter.php',
@@ -1340,6 +1346,7 @@ return array(
     'League\\Flysystem\\Util\\ContentListingFormatter' => $vendorDir . '/league/flysystem/src/Util/ContentListingFormatter.php',
     'League\\Flysystem\\Util\\MimeType' => $vendorDir . '/league/flysystem/src/Util/MimeType.php',
     'League\\Flysystem\\Util\\StreamHasher' => $vendorDir . '/league/flysystem/src/Util/StreamHasher.php',
+    'MedioDifusionSeeder' => $baseDir . '/database/seeds/MedioDifusionSeeder.php',
     'Mockery' => $vendorDir . '/mockery/mockery/library/Mockery.php',
     'Mockery\\Adapter\\Phpunit\\MockeryPHPUnitIntegration' => $vendorDir . '/mockery/mockery/library/Mockery/Adapter/Phpunit/MockeryPHPUnitIntegration.php',
     'Mockery\\Adapter\\Phpunit\\MockeryTestCase' => $vendorDir . '/mockery/mockery/library/Mockery/Adapter/Phpunit/MockeryTestCase.php',

@@ -278,6 +278,8 @@ class ComposerStaticInit1ec96c02e6975c734e3962b065828f55
     );
 
     public static $classMap = array (
+        'App\\Avaluo' => __DIR__ . '/../..' . '/app/Avaluo.php',
+        'App\\Categoria' => __DIR__ . '/../..' . '/app/Categoria.php',
         'App\\Console\\Kernel' => __DIR__ . '/../..' . '/app/Console/Kernel.php',
         'App\\Exceptions\\Handler' => __DIR__ . '/../..' . '/app/Exceptions/Handler.php',
         'App\\Http\\Controllers\\Auth\\ForgotPasswordController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/ForgotPasswordController.php',
@@ -291,6 +293,8 @@ class ComposerStaticInit1ec96c02e6975c734e3962b065828f55
         'App\\Http\\Middleware\\RedirectIfAuthenticated' => __DIR__ . '/../..' . '/app/Http/Middleware/RedirectIfAuthenticated.php',
         'App\\Http\\Middleware\\TrimStrings' => __DIR__ . '/../..' . '/app/Http/Middleware/TrimStrings.php',
         'App\\Http\\Middleware\\VerifyCsrfToken' => __DIR__ . '/../..' . '/app/Http/Middleware/VerifyCsrfToken.php',
+        'App\\InmuebleModel' => __DIR__ . '/../..' . '/app/InmuebleModel.php',
+        'App\\MedioDifusion' => __DIR__ . '/../..' . '/app/MedioDifusion.php',
         'App\\Providers\\AppServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AppServiceProvider.php',
         'App\\Providers\\AuthServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AuthServiceProvider.php',
         'App\\Providers\\BroadcastServiceProvider' => __DIR__ . '/../..' . '/app/Providers/BroadcastServiceProvider.php',
@@ -299,6 +303,7 @@ class ComposerStaticInit1ec96c02e6975c734e3962b065828f55
         'App\\User' => __DIR__ . '/../..' . '/app/User.php',
         'ArithmeticError' => __DIR__ . '/..' . '/symfony/polyfill-php70/Resources/stubs/ArithmeticError.php',
         'AssertionError' => __DIR__ . '/..' . '/symfony/polyfill-php70/Resources/stubs/AssertionError.php',
+        'AvaluosSeeder' => __DIR__ . '/../..' . '/database/seeds/AvaluosSeeder.php',
         'Carbon\\Carbon' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/Carbon.php',
         'Carbon\\CarbonInterval' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/CarbonInterval.php',
         'Carbon\\Exceptions\\InvalidDateException' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/Exceptions/InvalidDateException.php',
@@ -1558,6 +1563,7 @@ class ComposerStaticInit1ec96c02e6975c734e3962b065828f55
         'Illuminate\\View\\ViewFinderInterface' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/View/ViewFinderInterface.php',
         'Illuminate\\View\\ViewName' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/View/ViewName.php',
         'Illuminate\\View\\ViewServiceProvider' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/View/ViewServiceProvider.php',
+        'InmuebleSeeder' => __DIR__ . '/../..' . '/database/seeds/InmuebleSeeder.php',
         'JakubOnderka\\PhpConsoleColor\\ConsoleColor' => __DIR__ . '/..' . '/jakub-onderka/php-console-color/src/JakubOnderka/PhpConsoleColor/ConsoleColor.php',
         'JakubOnderka\\PhpConsoleColor\\InvalidStyleException' => __DIR__ . '/..' . '/jakub-onderka/php-console-color/src/JakubOnderka/PhpConsoleColor/InvalidStyleException.php',
         'JakubOnderka\\PhpConsoleHighlighter\\Highlighter' => __DIR__ . '/..' . '/jakub-onderka/php-console-highlighter/src/JakubOnderka/PhpConsoleHighlighter/Highlighter.php',
@@ -1612,6 +1618,7 @@ class ComposerStaticInit1ec96c02e6975c734e3962b065828f55
         'League\\Flysystem\\Util\\ContentListingFormatter' => __DIR__ . '/..' . '/league/flysystem/src/Util/ContentListingFormatter.php',
         'League\\Flysystem\\Util\\MimeType' => __DIR__ . '/..' . '/league/flysystem/src/Util/MimeType.php',
         'League\\Flysystem\\Util\\StreamHasher' => __DIR__ . '/..' . '/league/flysystem/src/Util/StreamHasher.php',
+        'MedioDifusionSeeder' => __DIR__ . '/../..' . '/database/seeds/MedioDifusionSeeder.php',
         'Mockery' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery.php',
         'Mockery\\Adapter\\Phpunit\\MockeryPHPUnitIntegration' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery/Adapter/Phpunit/MockeryPHPUnitIntegration.php',
         'Mockery\\Adapter\\Phpunit\\MockeryTestCase' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery/Adapter/Phpunit/MockeryTestCase.php',

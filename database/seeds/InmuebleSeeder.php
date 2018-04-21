@@ -2,8 +2,7 @@
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Seeder;
-
-class UserSeeder extends Seeder
+class InmuebleSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -13,8 +12,7 @@ class UserSeeder extends Seeder
     public function run()
     {
         Model::unguard();
-        factory(\App\User::class,'cliente',50)->create();
-        factory(\App\User::class,'empleado',15)->create();
+        factory(\App\InmuebleModel::class, 30)->create();
         Model::reguard();
     }
 }
